@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  <strong>Bootstrap a full AI-orchestrated development system in seconds.</strong><br>
-  <sub>10 AI agents. 22 skills. 3 MCP servers. One command.</sub>
+  <strong>Monte um sistema completo de desenvolvimento orquestrado por IA em segundos.</strong><br>
+  <sub>10 agentes de IA. 22 skills. 3 servidores MCP. Um único comando.</sub>
 </p>
 
 <p align="center">
@@ -15,99 +15,99 @@
 </p>
 
 <p align="center">
-  <a href="#-quick-start">Quick Start</a> ·
-  <a href="#-see-it-in-action">Example</a> ·
-  <a href="#-what-you-get">What You Get</a> ·
-  <a href="#-features">Features</a> ·
-  <a href="#-commands">Commands</a> ·
-  <a href="#-ai-agents">Agents</a> ·
-  <a href="#-ecosystem-skills">Skills</a>
+  <a href="#-início-rápido">Início Rápido</a> ·
+  <a href="#-veja-em-ação">Exemplos</a> ·
+  <a href="#-o-que-você-recebe">O Que Você Recebe</a> ·
+  <a href="#-funcionalidades">Funcionalidades</a> ·
+  <a href="#-comandos">Comandos</a> ·
+  <a href="#-agentes-de-ia">Agentes</a> ·
+  <a href="#-skills-do-ecossistema">Skills</a>
 </p>
 
 ---
 
 ```bash
-npx create-aios-god-mode my-project
+npx create-aios-god-mode meu-projeto
 ```
 
 > [!TIP]
-> Use `--yes` to skip all prompts and accept defaults: `npx create-aios-god-mode my-project --yes`
+> Use `--yes` para pular todos os prompts e aceitar os padrões: `npx create-aios-god-mode meu-projeto --yes`
 
 ---
 
-## 🎯 What You Get
+## 🎯 O Que Você Recebe
 
 <table>
 <tr>
 <td align="center" width="33%">
-<h3>🤖 10 AI Agents</h3>
-<sub>Dev, QA, Architect, PM, PO, SM, Analyst, Data Engineer, UX Designer, DevOps — each with unique persona and exclusive commands</sub>
+<h3>🤖 10 Agentes de IA</h3>
+<sub>Dev, QA, Architect, PM, PO, SM, Analyst, Data Engineer, UX Designer, DevOps — cada um com persona única e comandos exclusivos</sub>
 </td>
 <td align="center" width="33%">
 <h3>🧩 22 Skills</h3>
-<sub>Frontend design, SEO, clean code, Stripe, CI/CD, AI image/video generation, document processing, and more</sub>
+<sub>Design frontend, SEO, clean code, Stripe, CI/CD, geração de imagens/vídeos com IA, processamento de documentos e mais</sub>
 </td>
 <td align="center" width="33%">
-<h3>🔌 3 MCP Servers</h3>
-<sub>nano-banana-pro (AI images), Context7 (live docs), 21st.dev (UI components) — pre-configured and ready</sub>
+<h3>🔌 3 Servidores MCP</h3>
+<sub>nano-banana-pro (imagens IA), Context7 (docs ao vivo), 21st.dev (componentes UI) — pré-configurados e prontos</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
 <h3>👥 4 Squads</h3>
-<sub>AFS (framework dev), NSC (squad creator), BrandCraft (brand design), Ultimate LP (landing pages)</sub>
+<sub>AFS (dev de framework), NSC (criador de squads), BrandCraft (design de marca), Ultimate LP (landing pages)</sub>
 </td>
 <td align="center" width="33%">
-<h3>📖 Story-Driven Dev</h3>
-<sub>Full lifecycle: create → validate → implement → QA gate. Every feature starts with a story</sub>
+<h3>📖 Dev Orientado a Stories</h3>
+<sub>Ciclo completo: criar → validar → implementar → QA gate. Toda feature começa com uma story</sub>
 </td>
 <td align="center" width="33%">
-<h3>🛡️ Framework Protection</h3>
-<sub>4-layer boundary model (L1–L4) with deny rules. Core framework files are immutable by design</sub>
+<h3>🛡️ Proteção do Framework</h3>
+<sub>Modelo de 4 camadas (L1–L4) com deny rules. Arquivos core do framework são imutáveis por design</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Início Rápido
 
-**1.** Create your project
-
-```bash
-npx create-aios-god-mode my-project
-```
-
-**2.** Enter the directory
+**1.** Crie seu projeto
 
 ```bash
-cd my-project
+npx create-aios-god-mode meu-projeto
 ```
 
-**3.** Activate God Mode
+**2.** Entre no diretório
+
+```bash
+cd meu-projeto
+```
+
+**3.** Ative o God Mode
 
 ```bash
 claude
-# then type: /aios-god-mode
+# depois digite: /aios-god-mode
 ```
 
 > [!IMPORTANT]
-> [Claude Code](https://docs.anthropic.com/en/docs/claude-code) must be installed to use the AIOS agent system. Install it with `npm install -g @anthropic-ai/claude-code`.
+> O [Claude Code](https://docs.anthropic.com/en/docs/claude-code) precisa estar instalado para usar o sistema de agentes AIOS. Instale com `npm install -g @anthropic-ai/claude-code`.
 
 ---
 
-## 🎬 See It In Action
+## 🎬 Veja em Ação
 
-> **One prompt. Full system. Zero manual work.**
+> **Um prompt. Sistema completo. Zero trabalho manual.**
 >
-> The examples below show God Mode prompts that produce complete systems — landing page + admin dashboard + backend + AI-generated images — all orchestrated by AIOS agents. From detailed briefs to simple instructions, the results are equally impressive.
+> Os exemplos abaixo mostram prompts do God Mode que produzem sistemas completos — landing page + painel admin + backend + imagens geradas por IA — tudo orquestrado por agentes AIOS. De briefings detalhados a instruções simples, os resultados são igualmente impressionantes.
 
 <details>
-<summary><strong>🏥 Real-World Example: Premium Medical Clinic — High-Ticket Landing Page + Admin System</strong></summary>
+<summary><strong>🏥 Exemplo Real: Clínica Médica Premium — Landing Page High-Ticket + Sistema Admin</strong></summary>
 
 <br>
 
-Copy this prompt into Claude Code after activating `/aios-god-mode`:
+Copie este prompt no Claude Code após ativar `/aios-god-mode`:
 
 ---
 
@@ -314,31 +314,31 @@ Nível exigido:
 
 <br>
 
-**What AIOS does with this prompt:**
+**O que o AIOS faz com esse prompt:**
 
-| Agent | Action |
-|-------|--------|
-| `@architect` | Designs full-stack architecture (Next.js + SQLite + Auth) |
-| `@ux-design-expert` | Creates premium UI spec with medical editorial aesthetic |
-| `@dev` | Implements landing page, admin dashboard, backend API |
-| `@data-engineer` | Designs SQLite schema with proper indexes |
-| `@qa` | Validates quality, security, and responsiveness |
-| `nano-banana-pro` | Generates editorial medical photography |
-| `@devops` | Pushes to GitHub when ready |
+| Agente | Ação |
+|--------|------|
+| `@architect` | Projeta a arquitetura full-stack (Next.js + SQLite + Auth) |
+| `@ux-design-expert` | Cria spec de UI premium com estética editorial médica |
+| `@dev` | Implementa landing page, painel admin e API backend |
+| `@data-engineer` | Projeta schema SQLite com índices adequados |
+| `@qa` | Valida qualidade, segurança e responsividade |
+| `nano-banana-pro` | Gera fotografia médica editorial via MCP |
+| `@devops` | Faz push para o GitHub quando pronto |
 
 </details>
 
 <br>
 
 > [!TIP]
-> **You don't need a detailed prompt to get impressive results.** The example below is much simpler — and God Mode still delivers a complete, production-ready system with the same quality.
+> **Você não precisa de um prompt detalhado para ter resultados impressionantes.** O exemplo abaixo é muito mais simples — e o God Mode entrega um sistema completo e pronto para produção com a mesma qualidade.
 
 <details>
-<summary><strong>⚡ Quick Example: Same Project, Simple Prompt — Same Impressive Results</strong></summary>
+<summary><strong>⚡ Exemplo Rápido: Mesmo Projeto, Prompt Simples — Resultados Igualmente Impressionantes</strong></summary>
 
 <br>
 
-This shorter prompt achieves the same scope — landing page, backend, admin panel, AI photos, lead management — with minimal instructions. God Mode fills in the gaps using its built-in skills and agent expertise:
+Este prompt mais curto alcança o mesmo escopo — landing page, backend, painel admin, fotos com IA, gestão de leads — com instruções mínimas. O God Mode preenche as lacunas usando suas skills e expertise de agentes integrados:
 
 ---
 
@@ -364,131 +364,131 @@ Para o planejamento do projeto, utilize suas melhores skills estratégicas. Apó
 
 <br>
 
-**Same output, less effort.** God Mode agents autonomously handle:
+**Mesmo resultado, menos esforço.** Os agentes do God Mode lidam autonomamente com tudo:
 
-| What You Wrote | What AIOS Does |
-|----------------|-----------------|
-| "landing page de alta conversão" | `@ux-design-expert` designs conversion-optimized layout, `@dev` implements it |
-| "fotografias com nano banana pro" | Generates professional medical photography via MCP |
-| "leads em SQLite" | `@data-engineer` designs schema, `@dev` implements CRUD API |
-| "painel de administração com autenticação" | Full auth system + admin dashboard with stats |
-| "exportação em Excel" | `.xlsx` export using the `xlsx` skill |
-| "melhores skills estratégicas" | `@architect` plans architecture, `@pm` defines requirements |
+| O Que Você Escreveu | O Que o AIOS Faz |
+|---------------------|-------------------|
+| "landing page de alta conversão" | `@ux-design-expert` projeta layout otimizado para conversão, `@dev` implementa |
+| "fotografias com nano banana pro" | Gera fotografia médica profissional via MCP |
+| "leads em SQLite" | `@data-engineer` projeta o schema, `@dev` implementa a API CRUD |
+| "painel de administração com autenticação" | Sistema completo de auth + dashboard admin com estatísticas |
+| "exportação em Excel" | Exportação `.xlsx` usando a skill `xlsx` |
+| "melhores skills estratégicas" | `@architect` planeja a arquitetura, `@pm` define requisitos |
 
-> **The difference?** The detailed prompt gives you precise control over positioning, copy tone, and visual direction. The simple prompt lets AIOS make those decisions for you. Both produce production-ready results.
+> **A diferença?** O prompt detalhado dá controle preciso sobre posicionamento, tom de copy e direção visual. O prompt simples deixa o AIOS tomar essas decisões por você. Ambos entregam resultados prontos para produção.
 
 </details>
 
 ---
 
-## ✨ Features
+## ✨ Funcionalidades
 
-- **⚡ God Mode** — Full agent orchestration with 10 specialized AI personas, each with dedicated commands
-- **🤖 Agent System** — Activate agents with `@agent-name`, run commands with `*command`. Built-in handoff protocol preserves context across switches
-- **📖 Story-Driven Development** — All work flows through stories: `@sm *draft` → `@po *validate` → `@dev *develop` → `@qa *gate`
-- **👥 Squad System** — Pre-configured multi-agent squads for domain-specific workflows (framework dev, brand design, landing pages)
-- **🧩 Skill Ecosystem** — 22 community skills installed automatically: frontend, backend, SEO, payments, documents, AI generation
-- **🔌 MCP Integration** — 3 MCP servers pre-configured in `.mcp.json` for AI image generation, live documentation, and UI components
-- **🛡️ Framework Protection** — 4-layer boundary model with deterministic deny rules in `settings.json`. L1/L2 files are immutable
-- **🔄 QA Loop** — Automated review-fix cycle: `@qa review → verdict → @dev fixes → re-review` (max 5 iterations)
-- **📋 Spec Pipeline** — Transform informal requirements into executable specs with complexity-based phase selection (3-6 phases)
-- **🔍 Brownfield Discovery** — 10-phase technical debt assessment for existing codebases with multi-agent data collection
-
----
-
-## 📦 Installation Flow
-
-The installer runs a **10-step automated pipeline**:
-
-| Step | Description |
-|:----:|-------------|
-| 1 | 🔍 **Validate environment** — Check Node.js version, project name, directory, network |
-| 2 | 🏗️ **Initialize AIOS framework** — Download and scaffold `.aios-core/` with constitution, tasks, workflows |
-| 3 | ⚡ **Install God Mode** — Download agent personas, skills, rules from [aios-god-mode-template](https://github.com/gutomec/aios-god-mode-template) |
-| 4 | 👥 **Install squads** — Download and configure selected squad packages |
-| 5 | 🔌 **Configure MCP servers** — Set up `nano-banana-pro`, `context7`, `21st-dev` in `.mcp.json` |
-| 6 | 🧩 **Install ecosystem skills** — 22 skills from community repos via `npx skills add` |
-| 7 | 🚀 **Install GSD framework** — [Get Shit Done](https://www.npmjs.com/package/get-shit-done-cc) for project management |
-| 8 | 📦 **Install dependencies** — Run `npm install` inside `.aios-core/` |
-| 9 | 🗃️ **Initialize git** — `git init` with initial commit |
-| 10 | ✅ **Done** — Project ready for agent-driven development |
+- **⚡ God Mode** — Orquestração completa com 10 personas de IA especializadas, cada uma com comandos dedicados
+- **🤖 Sistema de Agentes** — Ative agentes com `@nome-do-agente`, execute comandos com `*comando`. Protocolo de handoff integrado preserva contexto entre trocas
+- **📖 Desenvolvimento Orientado a Stories** — Todo trabalho flui por stories: `@sm *draft` → `@po *validate` → `@dev *develop` → `@qa *gate`
+- **👥 Sistema de Squads** — Squads multi-agente pré-configurados para workflows de domínios específicos (dev de framework, design de marca, landing pages)
+- **🧩 Ecossistema de Skills** — 22 skills da comunidade instaladas automaticamente: frontend, backend, SEO, pagamentos, documentos, geração com IA
+- **🔌 Integração MCP** — 3 servidores MCP pré-configurados em `.mcp.json` para geração de imagens com IA, documentação ao vivo e componentes UI
+- **🛡️ Proteção do Framework** — Modelo de 4 camadas com deny rules determinísticas em `settings.json`. Arquivos L1/L2 são imutáveis
+- **🔄 QA Loop** — Ciclo automatizado de revisão-correção: `@qa review → veredito → @dev corrige → re-review` (máx. 5 iterações)
+- **📋 Spec Pipeline** — Transforma requisitos informais em specs executáveis com seleção de fases baseada em complexidade (3-6 fases)
+- **🔍 Brownfield Discovery** — Avaliação de débito técnico em 10 fases para codebases existentes com coleta de dados multi-agente
 
 ---
 
-## 🛠️ Commands
+## 📦 Fluxo de Instalação
 
-### `init` (default)
+O instalador executa um **pipeline automatizado de 10 etapas**:
 
-Scaffold a new AIOS project from scratch.
+| Etapa | Descrição |
+|:-----:|-----------|
+| 1 | 🔍 **Validar ambiente** — Verifica versão do Node.js, nome do projeto, diretório e rede |
+| 2 | 🏗️ **Inicializar framework AIOS** — Baixa e estrutura `.aios-core/` com constitution, tasks e workflows |
+| 3 | ⚡ **Instalar God Mode** — Baixa personas de agentes, skills e rules do [aios-god-mode-template](https://github.com/gutomec/aios-god-mode-template) |
+| 4 | 👥 **Instalar squads** — Baixa e configura os pacotes de squads selecionados |
+| 5 | 🔌 **Configurar servidores MCP** — Configura `nano-banana-pro`, `context7`, `21st-dev` em `.mcp.json` |
+| 6 | 🧩 **Instalar skills do ecossistema** — 22 skills de repos da comunidade via `npx skills add` |
+| 7 | 🚀 **Instalar framework GSD** — [Get Shit Done](https://www.npmjs.com/package/get-shit-done-cc) para gestão de projetos |
+| 8 | 📦 **Instalar dependências** — Executa `npm install` dentro de `.aios-core/` |
+| 9 | 🗃️ **Inicializar git** — `git init` com commit inicial |
+| 10 | ✅ **Pronto** — Projeto preparado para desenvolvimento orientado por agentes |
+
+---
+
+## 🛠️ Comandos
+
+### `init` (padrão)
+
+Cria um novo projeto AIOS do zero.
 
 ```bash
-npx create-aios-god-mode my-project
-npx create-aios-god-mode my-project --yes    # Accept all defaults
+npx create-aios-god-mode meu-projeto
+npx create-aios-god-mode meu-projeto --yes    # Aceitar todos os padrões
 ```
 
 ### `update`
 
-Update an existing project to the latest template version.
+Atualiza um projeto existente para a versão mais recente do template.
 
 ```bash
-cd my-project
+cd meu-projeto
 npx create-aios-god-mode update
 ```
 
 ### `doctor`
 
-Run health checks on an existing AIOS installation.
+Executa verificações de saúde em uma instalação AIOS existente.
 
 ```bash
-cd my-project
+cd meu-projeto
 npx create-aios-god-mode doctor
 ```
 
 ### `add-squad`
 
-Add a new squad configuration to the project.
+Adiciona uma nova configuração de squad ao projeto.
 
 ```bash
-cd my-project
+cd meu-projeto
 npx create-aios-god-mode add-squad backend
 ```
 
 ---
 
 <details>
-<summary><h2>🤖 AI Agents</h2></summary>
+<summary><h2>🤖 Agentes de IA</h2></summary>
 
-All agents are activated with `@agent-name` and support commands via the `*` prefix.
+Todos os agentes são ativados com `@nome-do-agente` e suportam comandos via prefixo `*`.
 
-| Agent | Persona | Role | Key Commands |
-|-------|---------|------|--------------|
-| `@dev` | **Dex** | Full Stack Developer | `*develop`, `*build-autonomous`, `*run-tests`, `*self-critique` |
-| `@qa` | **Quinn** | Test Architect | `*review`, `*gate`, `*security-check`, `*test-design` |
-| `@architect` | **Aria** | Technical Architect | `*design-system`, `*tech-selection`, `*api-design` |
+| Agente | Persona | Função | Comandos Principais |
+|--------|---------|--------|---------------------|
+| `@dev` | **Dex** | Desenvolvedor Full Stack | `*develop`, `*build-autonomous`, `*run-tests`, `*self-critique` |
+| `@qa` | **Quinn** | Arquiteto de Testes | `*review`, `*gate`, `*security-check`, `*test-design` |
+| `@architect` | **Aria** | Arquiteto Técnico | `*design-system`, `*tech-selection`, `*api-design` |
 | `@pm` | **Morgan** | Product Manager | `*create-prd`, `*create-epic`, `*execute-epic`, `*write-spec` |
 | `@po` | **Pax** | Product Owner | `*validate-story-draft`, `*close-story`, `*backlog-review` |
 | `@sm` | **River** | Scrum Master | `*draft`, `*story-checklist` |
-| `@analyst` | **Atlas** | Business Analyst | `*research`, `*feasibility-study`, `*user-research` |
-| `@data-engineer` | **Dara** | Database Specialist | DDL design, RLS policies, migrations, query optimization |
-| `@ux-design-expert` | **Uma** | UX/UI Designer | Frontend specs, user journeys, design systems |
-| `@devops` | **Gage** | Repository Manager | `*push`, `*create-pr`, `*release`, `*add-mcp` |
-| `@aios-master` | **Orion** | Framework Orchestrator | `*create`, `*modify`, `*run-workflow`, `*correct-course` |
+| `@analyst` | **Atlas** | Analista de Negócios | `*research`, `*feasibility-study`, `*user-research` |
+| `@data-engineer` | **Dara** | Especialista em Banco de Dados | Design DDL, políticas RLS, migrações, otimização de queries |
+| `@ux-design-expert` | **Uma** | Designer UX/UI | Specs frontend, jornadas de usuário, design systems |
+| `@devops` | **Gage** | Gerente de Repositório | `*push`, `*create-pr`, `*release`, `*add-mcp` |
+| `@aios-master` | **Orion** | Orquestrador do Framework | `*create`, `*modify`, `*run-workflow`, `*correct-course` |
 
-**Universal commands** (available in all agents): `*help`, `*guide`, `*session-info`, `*yolo`, `*exit`
+**Comandos universais** (disponíveis em todos os agentes): `*help`, `*guide`, `*session-info`, `*yolo`, `*exit`
 
 </details>
 
 ---
 
 <details>
-<summary><h2>🧩 Ecosystem Skills</h2></summary>
+<summary><h2>🧩 Skills do Ecossistema</h2></summary>
 
-22 skills installed automatically, organized by category:
+22 skills instaladas automaticamente, organizadas por categoria:
 
 #### Design & Frontend
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `ui-ux-pro-max` | nextlevelbuilder/ui-ux-pro-max-skill |
 | `frontend-design` | anthropics/skills |
 | `web-design-guidelines` | vercel-labs/agent-skills |
@@ -497,52 +497,52 @@ All agents are activated with `@agent-name` and support commands via the `*` pre
 
 #### SEO & Marketing
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `seo-audit` | coreyhaines31/marketingskills |
 | `programmatic-seo` | coreyhaines31/marketingskills |
 | `schema-markup` | coreyhaines31/marketingskills |
 
 #### CI/CD & Deploy
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `github-actions-templates` | wshobson/agents |
 | `deployment-pipeline-design` | wshobson/agents |
 
-#### Payments
+#### Pagamentos
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `stripe-integration` | wshobson/agents |
 
 #### Backend & Clean Code
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `nodejs-backend-patterns` | wshobson/agents |
 | `api-design-principles` | wshobson/agents |
 | `architecture-patterns` | wshobson/agents |
 | `error-handling-patterns` | wshobson/agents |
 | `clean-code` | ratacat/claude-skills |
 
-#### Prompt Engineering
+#### Engenharia de Prompts
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `prompt-engineering-patterns` | wshobson/agents |
 
-#### AI Media Generation
+#### Geração de Mídia com IA
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `ai-video-generation` | inference-sh/skills |
 | `ai-image-generation` | inference-sh/skills |
 
-#### Document Processing
+#### Processamento de Documentos
 
-| Skill | Source |
-|-------|--------|
+| Skill | Fonte |
+|-------|-------|
 | `pdf` | anthropics/skills |
 | `docx` | anthropics/skills |
 | `xlsx` | anthropics/skills |
@@ -552,47 +552,47 @@ All agents are activated with `@agent-name` and support commands via the `*` pre
 
 ---
 
-## 🔌 MCP Servers
+## 🔌 Servidores MCP
 
-Pre-configured in `.mcp.json` and ready to use:
+Pré-configurados em `.mcp.json` e prontos para uso:
 
-| Server | Package | Purpose |
-|--------|---------|---------|
-| **nano-banana-pro** | `@rafarafarafa/nano-banana-pro-mcp` | AI image generation with Gemini |
-| **context7** | `@upstash/context7-mcp` | Live library documentation lookup |
-| **21st-dev** | `@21st-dev/magic` | UI component search and generation |
+| Servidor | Pacote | Propósito |
+|----------|--------|-----------|
+| **nano-banana-pro** | `@rafarafarafa/nano-banana-pro-mcp` | Geração de imagens com IA via Gemini |
+| **context7** | `@upstash/context7-mcp` | Consulta de documentação de bibliotecas ao vivo |
+| **21st-dev** | `@21st-dev/magic` | Busca e geração de componentes UI |
 
 > [!NOTE]
-> `nano-banana-pro` requires a `GEMINI_API_KEY` environment variable. Add it to your `.env` file.
+> O `nano-banana-pro` requer a variável de ambiente `GEMINI_API_KEY`. Adicione-a ao seu arquivo `.env`.
 
 ---
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
 
 ```
-my-project/
+meu-projeto/
 ├── .claude/
-│   ├── settings.json              # Claude Code permissions + deny rules
-│   ├── rules/                     # Workflow rules, tool examples, agent authority
-│   ├── skills/                    # God Mode + 22 ecosystem skills
-│   └── CLAUDE.md                  # Project instructions for Claude
+│   ├── settings.json              # Permissões do Claude Code + deny rules
+│   ├── rules/                     # Regras de workflow, exemplos de tools, autoridade de agentes
+│   ├── skills/                    # God Mode + 22 skills do ecossistema
+│   └── CLAUDE.md                  # Instruções do projeto para o Claude
 ├── .aios-core/
-│   ├── constitution.md            # Framework principles (immutable)
-│   ├── core/                      # Core framework modules
+│   ├── constitution.md            # Princípios do framework (imutável)
+│   ├── core/                      # Módulos core do framework
 │   ├── development/
-│   │   ├── tasks/                 # Executable task definitions
-│   │   ├── templates/             # Document and code templates
-│   │   ├── checklists/            # Validation checklists
-│   │   └── workflows/             # Multi-step workflows
-│   └── data/                      # Tool registry, configuration data
-├── .mcp.json                      # MCP server configuration
+│   │   ├── tasks/                 # Definições de tasks executáveis
+│   │   ├── templates/             # Templates de documentos e código
+│   │   ├── checklists/            # Checklists de validação
+│   │   └── workflows/             # Workflows multi-etapa
+│   └── data/                      # Registro de tools, dados de configuração
+├── .mcp.json                      # Configuração dos servidores MCP
 ├── docs/
-│   ├── stories/                   # Development stories
-│   ├── prd/                       # Product requirement documents
-│   └── architecture/              # System architecture docs
-├── squads/                        # Squad configurations
-├── packages/                      # Project packages
-├── tests/                         # Test suites
+│   ├── stories/                   # Stories de desenvolvimento
+│   ├── prd/                       # Documentos de requisitos do produto
+│   └── architecture/              # Documentação de arquitetura do sistema
+├── squads/                        # Configurações de squads
+├── packages/                      # Pacotes do projeto
+├── tests/                         # Suítes de teste
 ├── package.json
 └── README.md
 ```
@@ -601,100 +601,100 @@ my-project/
 
 ## 👥 Squads
 
-Available during interactive setup (or all selected with `--yes`):
+Disponíveis durante a configuração interativa (ou todos selecionados com `--yes`):
 
-| Squad | Description | Default |
-|-------|-------------|:-------:|
-| **AFS** — AIOS Forge Squad | Framework development and contribution | ✅ |
-| **NSC** — Nirvana Squad Creator | Create and manage new squads | ✅ |
-| **BrandCraft** | Brand identity and design system | — |
-| **Ultimate LP** | Landing page creation with multi-agent workflow | — |
+| Squad | Descrição | Padrão |
+|-------|-----------|:------:|
+| **AFS** — AIOS Forge Squad | Desenvolvimento e contribuição ao framework | ✅ |
+| **NSC** — Nirvana Squad Creator | Criação e gerenciamento de novos squads | ✅ |
+| **BrandCraft** | Identidade de marca e design system | — |
+| **Ultimate LP** | Criação de landing pages com workflow multi-agente | — |
 
 ---
 
-## ⚙️ Options & Configuration
+## ⚙️ Opções e Configuração
 
-| Option | Description |
-|--------|-------------|
-| `--yes` | Accept all defaults without interactive prompts |
+| Opção | Descrição |
+|-------|-----------|
+| `--yes` | Aceitar todos os padrões sem prompts interativos |
 
-### Interactive Prompts
+### Prompts Interativos
 
-When running without `--yes`, the installer prompts for:
+Ao executar sem `--yes`, o instalador pergunta:
 
-| Prompt | Options | Default |
-|--------|---------|---------|
-| **Project name** | Any valid kebab-case name | — |
-| **Project type** | `Greenfield` / `Brownfield` | Greenfield |
-| **Language** | `Português (PT-BR)` / `English` | PT-BR |
-| **Squads** | Multi-select from available squads | AFS + NSC |
+| Prompt | Opções | Padrão |
+|--------|--------|--------|
+| **Nome do projeto** | Qualquer nome válido em kebab-case | — |
+| **Tipo de projeto** | `Greenfield` / `Brownfield` | Greenfield |
+| **Idioma** | `Português (PT-BR)` / `English` | PT-BR |
+| **Squads** | Seleção múltipla dos squads disponíveis | AFS + NSC |
 
 ---
 
 <details>
 <summary><h2>🔄 Workflows</h2></summary>
 
-### Story Development Cycle (SDC) — Primary
+### Story Development Cycle (SDC) — Principal
 
-The main development workflow, used for all story implementation:
+O workflow principal de desenvolvimento, usado para toda implementação de stories:
 
 ```
 @sm *draft → @po *validate → @dev *develop → @qa *gate → @devops *push
 ```
 
-| Phase | Agent | Task |
-|-------|-------|------|
-| Create | `@sm` | Draft story from epic/PRD |
-| Validate | `@po` | 10-point checklist → GO / NO-GO |
-| Implement | `@dev` | Code, test, self-critique |
-| QA Gate | `@qa` | 7 quality checks → PASS / FAIL |
+| Fase | Agente | Tarefa |
+|------|--------|--------|
+| Criar | `@sm` | Rascunho da story a partir de epic/PRD |
+| Validar | `@po` | Checklist de 10 pontos → GO / NO-GO |
+| Implementar | `@dev` | Código, testes, autocrítica |
+| QA Gate | `@qa` | 7 verificações de qualidade → PASS / FAIL |
 
-### QA Loop — Iterative Review
+### QA Loop — Revisão Iterativa
 
-Automated review-fix cycle after initial QA gate:
+Ciclo automatizado de revisão-correção após o QA gate inicial:
 
 ```
-@qa review → verdict → @dev fixes → re-review (max 5 iterations)
+@qa review → veredito → @dev corrige → re-review (máx. 5 iterações)
 ```
 
-### Spec Pipeline — Pre-Implementation
+### Spec Pipeline — Pré-Implementação
 
-Transform informal requirements into executable specifications:
+Transforma requisitos informais em especificações executáveis:
 
-| Complexity | Phases | Flow |
-|------------|--------|------|
-| Simple (≤8) | 3 | gather → spec → critique |
-| Standard (9-15) | 6 | gather → assess → research → spec → critique → plan |
-| Complex (≥16) | 6+ | All phases + revision cycle |
+| Complexidade | Fases | Fluxo |
+|--------------|-------|-------|
+| Simples (≤8) | 3 | coletar → spec → crítica |
+| Padrão (9-15) | 6 | coletar → avaliar → pesquisar → spec → crítica → planejar |
+| Complexo (≥16) | 6+ | Todas as fases + ciclo de revisão |
 
-### Brownfield Discovery — Legacy Assessment
+### Brownfield Discovery — Avaliação de Legado
 
-10-phase technical debt assessment for existing codebases with data collection (architecture, database, frontend), multi-agent review, and executive report generation.
+Avaliação de débito técnico em 10 fases para codebases existentes com coleta de dados (arquitetura, banco de dados, frontend), revisão multi-agente e geração de relatório executivo.
 
 </details>
 
 ---
 
-## 📋 Requirements
+## 📋 Requisitos
 
-| Requirement | Version | Required |
-|-------------|---------|:--------:|
+| Requisito | Versão | Obrigatório |
+|-----------|--------|:-----------:|
 | **Node.js** | ≥ 18.0.0 | ✅ |
-| **Git** | Any recent | ✅ |
-| **GitHub CLI** (`gh`) | Any recent | Recommended |
-| **Claude Code** | Latest | ✅ |
+| **Git** | Qualquer recente | ✅ |
+| **GitHub CLI** (`gh`) | Qualquer recente | Recomendado |
+| **Claude Code** | Mais recente | ✅ |
 
 ---
 
-## 🔗 Related
+## 🔗 Links Relacionados
 
-- [Synkra AIOS](https://github.com/gutomec/synkra-aios) — The AI-Orchestrated System framework
-- [squads.sh](https://squads.sh) — Squad management for AIOS projects
-- [aios-god-mode-template](https://github.com/gutomec/aios-god-mode-template) — The template this CLI uses
-- [Get Shit Done](https://www.npmjs.com/package/get-shit-done-cc) — Project management framework
+- [Synkra AIOS](https://github.com/gutomec/synkra-aios) — O framework de Sistema Orquestrado por IA
+- [squads.sh](https://squads.sh) — Gerenciamento de squads para projetos AIOS
+- [aios-god-mode-template](https://github.com/gutomec/aios-god-mode-template) — O template que este CLI utiliza
+- [Get Shit Done](https://www.npmjs.com/package/get-shit-done-cc) — Framework de gestão de projetos
 
 ---
 
-## 📄 License
+## 📄 Licença
 
 [MIT](LICENSE) © [gutomec](https://github.com/gutomec)
