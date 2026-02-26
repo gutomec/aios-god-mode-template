@@ -1,0 +1,12 @@
+{
+  "name": "aios-god-mode-template",
+  "version": "3.0.0",
+  "description": "God Mode template for Synkra AIOS — complete agent creation and framework management skill",
+  "aiosMinVersion": "1.0.0",
+  "files": {
+    "skills": "template/skills/",
+    "rules": "template/rules/",
+    "config": "template/config/"
+  },
+  "checksums": {}
+}
