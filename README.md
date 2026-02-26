@@ -24,6 +24,41 @@
   <a href="#-skills-do-ecossistema">Skills</a>
 </p>
 
+<br>
+
+<p align="center">
+  <sub>
+    Parte do ecossistema <a href="https://github.com/gutomec/synkra-aios"><strong>Synkra AIOS</strong></a> · Construído sobre o <a href="https://docs.anthropic.com/en/docs/claude-code"><strong>Claude Code</strong></a> da <a href="https://www.anthropic.com">Anthropic</a>
+  </sub>
+</p>
+
+---
+
+### 🏆 Créditos e Agradecimentos
+
+Este projeto existe graças ao trabalho incrível de diversas comunidades e criadores open-source:
+
+| Projeto | Autor / Organização | Contribuição |
+|---------|---------------------|--------------|
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | [Anthropic](https://www.anthropic.com) | Motor de IA que torna tudo possível — agentes, skills e MCP rodam sobre o Claude Code |
+| [Synkra AIOS](https://github.com/gutomec/synkra-aios) | [gutomec](https://github.com/gutomec) | Framework de orquestração de agentes de IA para desenvolvimento full-stack |
+| [squads.sh](https://squads.sh) | [gutomec](https://github.com/gutomec) | Plataforma de gerenciamento de squads para projetos AIOS |
+| [Skills CLI](https://github.com/anthropics/skills) | [Anthropic](https://github.com/anthropics) | Skills oficiais: `frontend-design`, `pdf`, `docx`, `xlsx`, `pptx` |
+| [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) | [Vercel](https://github.com/vercel-labs) | Skills: `web-design-guidelines`, `vercel-react-best-practices`, `vercel-composition-patterns` |
+| [wshobson/agents](https://github.com/wshobson/agents) | [wshobson](https://github.com/wshobson) | Skills: `stripe-integration`, `api-design-principles`, `architecture-patterns`, `nodejs-backend-patterns`, `error-handling-patterns`, `github-actions-templates`, `deployment-pipeline-design`, `prompt-engineering-patterns` |
+| [Marketing Skills](https://github.com/coreyhaines31/marketingskills) | [coreyhaines31](https://github.com/coreyhaines31) | Skills: `seo-audit`, `programmatic-seo`, `schema-markup` |
+| [Inference Skills](https://github.com/inference-sh/skills) | [inference-sh](https://github.com/inference-sh) | Skills: `ai-video-generation`, `ai-image-generation` |
+| [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | [nextlevelbuilder](https://github.com/nextlevelbuilder) | Skill: `ui-ux-pro-max` |
+| [Clean Code Skill](https://github.com/ratacat/claude-skills) | [ratacat](https://github.com/ratacat) | Skill: `clean-code` |
+| [nano-banana-pro](https://www.npmjs.com/package/@rafarafarafa/nano-banana-pro-mcp) | [rafarafarafa](https://github.com/rafarafarafa) | Servidor MCP para geração de imagens com Gemini |
+| [Context7](https://github.com/upstash/context7-mcp) | [Upstash](https://github.com/upstash) | Servidor MCP para documentação de bibliotecas ao vivo |
+| [21st.dev Magic](https://github.com/21st-dev/magic) | [21st.dev](https://github.com/21st-dev) | Servidor MCP para busca e geração de componentes UI |
+| [Get Shit Done](https://www.npmjs.com/package/get-shit-done-cc) | [get-shit-done](https://github.com/get-shit-done) | Framework GSD para gestão de projetos com Claude Code |
+| [cc-deploy](https://github.com/saadnvd1/cc-deploy) | [saadnvd1](https://github.com/saadnvd1) | Deploy em VPS via Claude Code |
+
+> [!NOTE]
+> `create-aios-god-mode` é um **instalador e orquestrador** — ele baixa, configura e integra os projetos listados acima. Todo o crédito pelo trabalho original pertence aos respectivos autores e organizações. Se você é autor de algum projeto listado e deseja ajustes na atribuição, [abra uma issue](https://github.com/gutomec/create-aios-god-mode/issues).
+
 ---
 
 ```bash
