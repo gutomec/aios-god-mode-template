@@ -43,6 +43,7 @@ Este projeto existe graças ao trabalho incrível de diversas comunidades e cria
 | Projeto | Autor / Organização | Contribuição |
 |---------|---------------------|--------------|
 | [**Synkra AIOS**](https://github.com/SynkraAI/aios-core) | [**Pedro Valério**](https://github.com/Pedrovaleriolopez) / [SynkraAI](https://github.com/SynkraAI) | Framework core — toda a arquitetura de agentes, constitution, workflows, tasks, templates e o sistema de squads que este CLI instala e configura |
+| [squads.sh](https://squads.sh) | [gutomec](https://github.com/gutomec) | Plataforma de gerenciamento de squads para projetos AIOS |
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | [Anthropic](https://www.anthropic.com) | Motor de IA que torna tudo possível — agentes, skills e MCP rodam sobre o Claude Code |
 | [Skills CLI](https://github.com/anthropics/skills) | [Anthropic](https://github.com/anthropics) | Skills oficiais: `frontend-design`, `pdf`, `docx`, `xlsx`, `pptx` |
 | [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) | [Vercel](https://github.com/vercel-labs) | Skills: `web-design-guidelines`, `vercel-react-best-practices`, `vercel-composition-patterns` |
