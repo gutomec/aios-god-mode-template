@@ -16,6 +16,7 @@
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> ·
+  <a href="#-see-it-in-action">Example</a> ·
   <a href="#-what-you-get">What You Get</a> ·
   <a href="#-features">Features</a> ·
   <a href="#-commands">Commands</a> ·
@@ -92,6 +93,240 @@ claude
 
 > [!IMPORTANT]
 > [Claude Code](https://docs.anthropic.com/en/docs/claude-code) must be installed to use the AIOS agent system. Install it with `npm install -g @anthropic-ai/claude-code`.
+
+---
+
+## 🎬 See It In Action
+
+> **One prompt. Full system. Zero manual work.**
+>
+> The example below shows a single God Mode prompt that produces a complete premium landing page + admin dashboard + backend + AI-generated images — all orchestrated by AIOS agents.
+
+<details>
+<summary><strong>🏥 Real-World Example: Premium Medical Clinic — High-Ticket Landing Page + Admin System</strong></summary>
+
+<br>
+
+Copy this prompt into Claude Code after activating `/aios-god-mode`:
+
+---
+
+### 🏥 CLÍNICA PREMIUM HIGH-TICKET MODE
+
+Ative `aios-god-mode`.
+
+Você irá **conceber, posicionar e implementar** uma landing page e sistema completo para uma clínica de nutrologia com posicionamento premium.
+
+O objetivo NÃO é vender um plano de R$347.
+
+O objetivo é vender:
+
+> 🔥 Um programa médico exclusivo de transformação metabólica contínua
+> (O valor é R$347/mês, mas a percepção deve ser de algo que valeria R$1.500+)
+
+---
+
+#### 🎯 POSICIONAMENTO ESTRATÉGICO
+
+Antes de executar qualquer código:
+
+**1️⃣ Defina o posicionamento**
+
+A clínica não vende emagrecimento.
+Ela vende:
+
+* Longevidade
+* Performance
+* Controle metabólico
+* Supervisão médica contínua
+* Segurança clínica
+* Método estruturado
+
+Evite linguagem popular.
+Use linguagem médica sofisticada e acessível.
+
+---
+
+**2️⃣ Defina o Avatar Premium**
+
+Público-alvo:
+
+* Homens e mulheres 30–55+
+* Empresários
+* Profissionais liberais
+* Pessoas com rotina intensa
+* Que já tentaram dietas
+* Que valorizam acompanhamento médico real
+
+Eles não querem "dieta".
+Eles querem:
+
+* Controle
+* Segurança
+* Acompanhamento
+* Método científico
+* Resultado previsível
+
+---
+
+#### 🧠 ESTRUTURA DA LANDING (HIGH-TICKET)
+
+**HERO SECTION**
+
+* Headline forte e elegante
+* Subheadline médica e técnica
+* CTA discreto e sofisticado
+* Imagem premium estilo editorial médico
+
+Exemplo de direção (não copie literalmente):
+
+> "Supervisão Médica Contínua Para Transformação Metabólica Sustentável."
+
+---
+
+**SEÇÃO 1 — AUTORIDADE**
+
+* Apresentação da equipe médica
+* Formação, CRM, Especializações
+* Método exclusivo
+
+Tom: Confiança silenciosa. Sem exagero. Sem hype.
+
+---
+
+**SEÇÃO 2 — O MÉTODO**
+
+Explicar o método como um protocolo estruturado:
+
+* Avaliação metabólica
+* Estratégia personalizada
+* Monitoramento contínuo
+* Ajustes clínicos
+* Acompanhamento da equipe
+
+Nomeie o método. Ex: *Protocolo de Regulação Metabólica Contínua™*
+
+---
+
+**SEÇÃO 3 — DIFERENCIAL**
+
+Comparar implicitamente com dietas genéricas, apps, influenciadores, programas sem médico.
+Sem atacar diretamente.
+
+---
+
+**SEÇÃO 4 — PROVA SOCIAL PREMIUM**
+
+* Depoimentos elegantes
+* Fotos discretas
+* Histórias realistas
+* Transformações sem exagero visual
+
+Nada apelativo.
+
+---
+
+**SEÇÃO 5 — INVESTIMENTO**
+
+Apresente como:
+
+> Programa de Acompanhamento Médico Contínuo
+> Investimento mensal: R$347
+
+Ancoragem psicológica antes: consultas avulsas, nutricionistas, personal, exames, tempo perdido.
+
+---
+
+#### 📸 IMAGENS (nano banana pro)
+
+Gerar imagens no padrão:
+
+* Fotografia médica editorial
+* Luz natural, ambiente clean
+* Consultório sofisticado
+* Expressões confiantes
+* Pacientes reais (não fitness influencer)
+
+Estilo: Tons neutros, branco, bege, azul clínico. Sem exagero de saturação. Sem aparência artificial.
+
+---
+
+#### 💾 BACKEND
+
+**Banco SQLite:**
+
+| Tabela | Campos |
+|--------|--------|
+| `leads` | id, nome, email, telefone, data_cadastro, origem, status, observacoes |
+| `users` (admin) | id, nome, email, senha_hash, role, data_criacao |
+
+---
+
+#### 🔐 AUTENTICAÇÃO
+
+* Login seguro com senha hash
+* Proteção de rotas
+* Sessão autenticada
+* Logout
+
+---
+
+#### 📊 PAINEL ADMIN PREMIUM
+
+Design limpo estilo SaaS médico.
+
+**Dashboard:** Total de leads, leads por período, gráfico de crescimento, conversões, origem de tráfego.
+
+**Tabela de leads:** Ordenação, filtro, busca, paginação + botão **Exportar para Excel (.xlsx)**.
+
+---
+
+#### 🎨 ESTILO VISUAL
+
+* Minimalista, espaçamento generoso
+* Tipografia elegante
+* Animações sutis, transições suaves
+* UX fluida
+
+Referência mental: SaaS médico americano, clínica de luxo, estética discreta.
+
+---
+
+#### ⚙️ EXECUÇÃO
+
+1. Planeje estrategicamente tudo
+2. Defina arquitetura
+3. Estruture código
+4. Implemente frontend + backend
+5. Gere imagens
+6. Organize estrutura de pastas
+7. Entregue pronto para deploy
+
+Execute tudo usando `aios-god-mode`.
+
+Nível exigido:
+
+> Clínica de alto padrão.
+> Produto que transmite confiança médica absoluta.
+> Conversão elegante, não agressiva.
+
+---
+
+<br>
+
+**What AIOS does with this prompt:**
+
+| Agent | Action |
+|-------|--------|
+| `@architect` | Designs full-stack architecture (Next.js + SQLite + Auth) |
+| `@ux-design-expert` | Creates premium UI spec with medical editorial aesthetic |
+| `@dev` | Implements landing page, admin dashboard, backend API |
+| `@data-engineer` | Designs SQLite schema with proper indexes |
+| `@qa` | Validates quality, security, and responsiveness |
+| `nano-banana-pro` | Generates editorial medical photography |
+| `@devops` | Pushes to GitHub when ready |
+
+</details>
 
 ---
 
