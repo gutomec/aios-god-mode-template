@@ -28,7 +28,7 @@
 
 <p align="center">
   <sub>
-    Parte do ecossistema <a href="https://github.com/gutomec/synkra-aios"><strong>Synkra AIOS</strong></a> · Construído sobre o <a href="https://docs.anthropic.com/en/docs/claude-code"><strong>Claude Code</strong></a> da <a href="https://www.anthropic.com">Anthropic</a>
+    Baseado no <a href="https://github.com/SynkraAI/aios-core"><strong>Synkra AIOS</strong></a> por <a href="https://github.com/Pedrovaleriolopez"><strong>Pedro Valério</strong></a> · Construído sobre o <a href="https://docs.anthropic.com/en/docs/claude-code"><strong>Claude Code</strong></a> da <a href="https://www.anthropic.com">Anthropic</a>
   </sub>
 </p>
 
@@ -36,13 +36,14 @@
 
 ### 🏆 Créditos e Agradecimentos
 
+> **Este projeto é construído sobre o [Synkra AIOS](https://github.com/SynkraAI/aios-core)**, o framework open-source de orquestração de agentes de IA para desenvolvimento full-stack criado por **[Pedro Valério](https://github.com/Pedrovaleriolopez)** e mantido pela organização **[SynkraAI](https://github.com/SynkraAI)** (1.850+ stars no GitHub). Sem o trabalho do Pedro e da comunidade Synkra, este projeto não existiria.
+
 Este projeto existe graças ao trabalho incrível de diversas comunidades e criadores open-source:
 
 | Projeto | Autor / Organização | Contribuição |
 |---------|---------------------|--------------|
+| [**Synkra AIOS**](https://github.com/SynkraAI/aios-core) | [**Pedro Valério**](https://github.com/Pedrovaleriolopez) / [SynkraAI](https://github.com/SynkraAI) | Framework core — toda a arquitetura de agentes, constitution, workflows, tasks, templates e o sistema de squads que este CLI instala e configura |
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | [Anthropic](https://www.anthropic.com) | Motor de IA que torna tudo possível — agentes, skills e MCP rodam sobre o Claude Code |
-| [Synkra AIOS](https://github.com/gutomec/synkra-aios) | [pedro](https://) | Framework de orquestração de agentes de IA para desenvolvimento full-stack |
-| [squads.sh](https://squads.sh) | [gutomec](https://github.com/gutomec) | Plataforma de gerenciamento de squads para projetos AIOS |
 | [Skills CLI](https://github.com/anthropics/skills) | [Anthropic](https://github.com/anthropics) | Skills oficiais: `frontend-design`, `pdf`, `docx`, `xlsx`, `pptx` |
 | [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) | [Vercel](https://github.com/vercel-labs) | Skills: `web-design-guidelines`, `vercel-react-best-practices`, `vercel-composition-patterns` |
 | [wshobson/agents](https://github.com/wshobson/agents) | [wshobson](https://github.com/wshobson) | Skills: `stripe-integration`, `api-design-principles`, `architecture-patterns`, `nodejs-backend-patterns`, `error-handling-patterns`, `github-actions-templates`, `deployment-pipeline-design`, `prompt-engineering-patterns` |
@@ -57,7 +58,7 @@ Este projeto existe graças ao trabalho incrível de diversas comunidades e cria
 | [cc-deploy](https://github.com/saadnvd1/cc-deploy) | [saadnvd1](https://github.com/saadnvd1) | Deploy em VPS via Claude Code |
 
 > [!NOTE]
-> `create-aios-god-mode` é um **instalador e orquestrador** — ele baixa, configura e integra os projetos listados acima. Todo o crédito pelo trabalho original pertence aos respectivos autores e organizações. Se você é autor de algum projeto listado e deseja ajustes na atribuição, [abra uma issue](https://github.com/gutomec/create-aios-god-mode/issues).
+> `create-aios-god-mode` é um **instalador e orquestrador** — ele baixa, configura e integra os projetos listados acima. Todo o crédito pelo framework Synkra AIOS pertence a [Pedro Valério](https://github.com/Pedrovaleriolopez) e à organização [SynkraAI](https://github.com/SynkraAI). O crédito pelas skills, MCPs e ferramentas pertence aos respectivos autores. Se você é autor de algum projeto listado e deseja ajustes na atribuição, [abra uma issue](https://github.com/gutomec/create-aios-god-mode/issues).
 
 ---
 
@@ -723,7 +724,7 @@ Avaliação de débito técnico em 10 fases para codebases existentes com coleta
 
 ## 🔗 Links Relacionados
 
-- [Synkra AIOS](https://github.com/gutomec/synkra-aios) — O framework de Sistema Orquestrado por IA
+- [Synkra AIOS](https://github.com/SynkraAI/aios-core) — O framework de Sistema Orquestrado por IA, por [Pedro Valério](https://github.com/Pedrovaleriolopez)
 - [squads.sh](https://squads.sh) — Gerenciamento de squads para projetos AIOS
 - [aios-god-mode-template](https://github.com/gutomec/aios-god-mode-template) — O template que este CLI utiliza
 - [Get Shit Done](https://www.npmjs.com/package/get-shit-done-cc) — Framework de gestão de projetos
