@@ -100,7 +100,7 @@ claude
 
 > **One prompt. Full system. Zero manual work.**
 >
-> The example below shows a single God Mode prompt that produces a complete premium landing page + admin dashboard + backend + AI-generated images — all orchestrated by AIOS agents.
+> The examples below show God Mode prompts that produce complete systems — landing page + admin dashboard + backend + AI-generated images — all orchestrated by AIOS agents. From detailed briefs to simple instructions, the results are equally impressive.
 
 <details>
 <summary><strong>🏥 Real-World Example: Premium Medical Clinic — High-Ticket Landing Page + Admin System</strong></summary>
@@ -325,6 +325,57 @@ Nível exigido:
 | `@qa` | Validates quality, security, and responsiveness |
 | `nano-banana-pro` | Generates editorial medical photography |
 | `@devops` | Pushes to GitHub when ready |
+
+</details>
+
+<br>
+
+> [!TIP]
+> **You don't need a detailed prompt to get impressive results.** The example below is much simpler — and God Mode still delivers a complete, production-ready system with the same quality.
+
+<details>
+<summary><strong>⚡ Quick Example: Same Project, Simple Prompt — Same Impressive Results</strong></summary>
+
+<br>
+
+This shorter prompt achieves the same scope — landing page, backend, admin panel, AI photos, lead management — with minimal instructions. God Mode fills in the gaps using its built-in skills and agent expertise:
+
+---
+
+Ative sua skill aios-god-mode.
+
+Utilize AIOS para criar uma landing page de alta conversão para um sistema de acompanhamento médico de uma clínica de nutrologia. A equipe médica deve estar disponível para acompanhamento contínuo de atendimentos relacionados à nutrologia, como emagrecimento e reeducação alimentar.
+
+O plano de assinatura mensal custa R$347.
+
+Gere fotografias utilizando nano banana pro com qualidade de fotógrafo profissional, transmitindo credibilidade, profissionalismo e padrão premium.
+
+Implemente um sistema completo com backend que:
+
+- Salve os leads em um banco de dados SQLite.
+- Possua painel de administração com autenticação via SQLite.
+- Permita que usuários cadastrados analisem estatísticas dos leads coletados.
+- Exiba uma tabela com os leads cadastrados.
+- Tenha um botão para exportação dos leads em formato Excel (.xlsx).
+
+Para o planejamento do projeto, utilize suas melhores skills estratégicas. Após concluir o planejamento, execute toda a implementação utilizando a skill aios-god-mode.
+
+---
+
+<br>
+
+**Same output, less effort.** God Mode agents autonomously handle:
+
+| What You Wrote | What AIOS Does |
+|----------------|-----------------|
+| "landing page de alta conversão" | `@ux-design-expert` designs conversion-optimized layout, `@dev` implements it |
+| "fotografias com nano banana pro" | Generates professional medical photography via MCP |
+| "leads em SQLite" | `@data-engineer` designs schema, `@dev` implements CRUD API |
+| "painel de administração com autenticação" | Full auth system + admin dashboard with stats |
+| "exportação em Excel" | `.xlsx` export using the `xlsx` skill |
+| "melhores skills estratégicas" | `@architect` plans architecture, `@pm` defines requirements |
+
+> **The difference?** The detailed prompt gives you precise control over positioning, copy tone, and visual direction. The simple prompt lets AIOS make those decisions for you. Both produce production-ready results.
 
 </details>
 
